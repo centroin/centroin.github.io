@@ -52,7 +52,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     document.getElementById('score-' + activePlayer).textContent = score[activePlayer];
 
 if(score[activePlayer] >= 100){
-    alert(`Player - ${activePlayer + 1} is the winner! with score ${score[0]}`);
+    alert(`Player - ${activePlayer + 1} is the winner! with score ${score[activePlayer]}`);
     score[0] = 0;
     score[1] = 0;
     document.getElementById('score-0').textContent = 0;
