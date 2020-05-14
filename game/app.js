@@ -1,7 +1,7 @@
 var score, roundScore, activePlayer;
 
 score = [0,0];
-roundScore = 0.5; 
+roundScore = 0; 
 activePlayer = 0;
 
 // document.querySelector('#current-' + activePlayer).textContent=dice;
